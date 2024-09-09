@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cde7e9;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+.contaner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+
+}
+.profile-card{
+    background-color: #f8f4f4;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1 );
+    text-align: center;
+
+
+}
+img{
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: bottom 20px;
+
+    
+}
+h1{
+    font-size: 24px;
+    color: #333;
+
+}
+p{
+    color: #777;
+    margin: 10px;
+
+    
+
+}
+.solcia-link{
+    margin-top: 20px;
+}
+.social-icon{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 03 ease ;
+    cursor: pointer;
+}
+.p1{
+    color: #777;
+    margin: 10px;
+
+}
